@@ -1,21 +1,50 @@
-.navbar-static-top
-.container-fluid
+<style>
 
-.page-header
-h1
-
-.panel-heading
-.panel-title
-h2
-.panel-body
-
-.panel-heading
-.panel-title
-h3
-.panel-body
-
-
-
-
-
-
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px; 
+}
+#section1 {
+    width:350px;
+    float:left;
+    padding:10px; 
+}
+#section2 {
+  width:350px;
+    float:left;
+    padding:10px; 
+}
+#section3 {
+  width:350px;
+    float:left;
+    padding:10px; 
+}
+#section4 {
+  width:350px;
+    float:left;
+    padding:10px;
+}
+#section5 {
+  width:350px;
+    float:left;
+    padding:10px;
+    text-align:center;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+</style>

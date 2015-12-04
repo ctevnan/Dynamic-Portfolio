@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Dynamic Portfolio Page</title>
+    <title>Carolyn Tevnan's Dynamic Portfolio Page</title>
     <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 <body>
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">
-        <img alt="Brand" src="https://s-media-cache-ak0.pinimg.com/236x/72/5b/bc/725bbc966ca8cd6cd29c956628f496f7.jpg" height="50" width="50">
-      </a>
-      <ul class="nav nav-tabs">
-  <li role="presentation" class="active"><a href="#">Home</a></li>
-  <li role="presentation"><a href="#">About</a></li>
-  <li role="presentation"><a href="#">Contact</a></li>
-</ul>
+<nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="home.html">Portfolio</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="home-background.html" target="_blank">My Background</a></li>
+                <li class="active"><a href="home-contact.html" target="_blank">Contact</a></li>
+                <li class="active"><a href="github-repos.html" target="_blank">GitHub Repositories</a></li>
+            </ul>
+        </div>
     </div>
-  </div>
 </nav>
 <div class="page-header">
+<div id="header">
   <h1>Carolyn Tevnan's Portfolio Page <small>A Sampling of My Work for Rutgers Coding Bootcamp</small></h1>
 </div>
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h2 class="panel-title">My Background</h2>
-  </div>
-  <div class="panel-body">
-    Carolyn Tevnan is currently a student in Rutgers Coding Bootcamp, but how did she get here? Carolyn was born in Lawrence, Massachusetts, and grew up in Salem, New Hampshire. When she was nine, she moved with her family to Arlington, Texas, and lived there for four years. Life in Texas was great, but the Tevnan family longed to be back on the East Coast, so they moved to Newtown, in beautiful Fairfield County, Connecticut. Here, Carolyn obtained an excellent education from Newtown Middle School and Newtown High School. It was there that she discovered her passion for the humanities. During her senior year she was accepted into Le Moyne College, a private Jesuit College in Syracuse, New York. While she was an undergraduate there, in addition to pursuing a bachelors degree in Sociology with a Concentration in Anthropology, she filled her private time by supporting groups on campus. These groups included the Student Environmental Coalition, where she created and led the subcommittee for Composting and Recycling on campus. She also represented the Le Moyne college student body as a member of the College Committee for Environmental Sustainability. She was personally selected by the Le Moyne College Office of Admissions to represent the school as a Student Ambassador. She took great pride in this role, as she encouraged prospective students to begin their own academic careers at Le Moyne. She left Le Moyne College in 2010 due to a health issue that was later resolved. She currently has senior status and anticipates completing her degree in the future. While back at home in Connecticut, Carolyn studied to become a Certified Nurses Assistant at Branford Hall in Danbury, CT. Working in healthcare for 3 years has given her top-notch time management skills, great interpersonal skills, and a strong work ethic. The plan going forward is to take these qualities that she has acquired, and apply them to a new career in web development.
-  </div>
-</div>
+</div>  
+<div id="section1">
 <div class="panel panel-default">
   <div class="panel-heading">
     <h3 class="panel-title">Career Objective</h3>
@@ -39,6 +43,8 @@
     I want to design, develop and build aesthetically pleasing and functional websites for environmental organizations, in the role of Junior Front End Developer.
   </div>
 </div>
+</div>
+<div id="section2">
 <div class="panel panel-default">
   <!-- Default panel contents -->
   <div class="panel-heading">Ideal Organizations</div>
@@ -54,14 +60,20 @@
     <li class="list-group-item">Friends of the Earth</li>
   </ul>
 </div>
-
+</div>
+<div id="section3">
 <div class="container-fluid">
 <p>Professional Experience: Internship at Halberd Match</p>
      <p><a href="http://www.halberdmatch.com">Halberd Match</a></p>
 </div>
-
+</div>
+<div class="section4">
+<div class="col-sm-6">
 <div class="well well-lg"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRMs_M7y1hEwg4LwsUXgB4QaMUYBu5znl28KskvKN6VWa5hFV1O-w"><img src="https://avatars0.githubusercontent.com/u/15148849?v=3&s=460"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRMs_M7y1hEwg4LwsUXgB4QaMUYBu5znl28KskvKN6VWa5hFV1O-w"></div>
-
+</div>
+</div>
+<div class="section5">
+<div class="col-sm-6">
 <div class="list-group">
   <a href="#" class="list-group-item active">
     Lets get in touch.
@@ -70,22 +82,15 @@
   <a href="http://www.twitter.com/CarolynTevnan33" class="list-group-item">Twitter</a>
   <a href="http://www.github.com/ctevnan" class="list-group-item">Github</a>
 </div>
-
-<div class="container-fluid">
-<h4>If you are interested in contacting me by e-mail, please fill out your name and e-mail below.</h4>
-<FORM METHOD="POST" ACTION="mailto:CarolynTevnan@codeoptimal.com">
- <INPUT TYPE="text" NAME="name" SIZE="30">
- <INPUT TYPE="E-mail" NAME="E-mail" SIZE="30">
- <INPUT TYPE="submit">
- <INPUT TYPE="reset">
- </INPUT>
- </FORM>
- <p>Your feedback on my page would be greatly appreciated.</p>
- <TEXTAREA NAME="comments" ROWS=6 COLS=40></TEXTAREA>
+</div>
+</div>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> 
 <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
 <script type="text/javascript" src="../js/bootstrap.min.js"></script>
-<style type="text/css">  
+<style type="text/javascript" src="interact.js"></style>
+<div id="footer">
+<p>Thank you for viewing my portfolio page.</p>
+</div>  
 </body>
 </html>
