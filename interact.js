@@ -1,16 +1,19 @@
 $(document).ready(function(){
 
-$('#toggleButtonOne').on('click', function(){
-  $('#imageOne').toggle();
- $('#paragraphOne').toggle();
-});
+    $('#toggleButtonOne').on('click', function(){
 
-$('#toggleButtonTwo').on('click', function(){
-  $('#imageTwo').toggle();
-  $('#paragraphTwo').toggle();
-});
+        $('#imageOne').toggle();
+        $('#paragraphOne').toggle();
+    });
 
-$('#toggleButtonThree').on('click',function(){
-  $('#imageThree').toggle();
-  $('#paragraphThree').toggle();
+    $('#toggleButtonTwo').on('click', function(){
+        $('#imageTwo').toggle();
+        $('#paragraphTwo').toggle();
+    });
+
+    $('#toggleButtonThree').on('click',function(){
+        $('#imageThree').toggle();
+        $('#paragraphThree').toggle();
+    });
+
 });
