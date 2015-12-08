@@ -1,13 +1,16 @@
 $(document).ready(function(){
 
-$("button").click(function(){
-
-  $("p").toggle();
-        });
+$('#toggleButtonOne').on('click', function(){
+  $('#imageOne').toggle();
+ $('#paragraphOne').toggle();
 });
 
+$('#toggleButtonTwo').on('click', function(){
+  $('#imageTwo').toggle();
+  $('#paragraphTwo').toggle();
+});
 
-
-}
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+$('#toggleButtonThree').on('click',function(){
+  $('#imageThree').toggle();
+  $('#paragraphThree').toggle();
+});

@@ -6,6 +6,9 @@
     text-align:center;
     padding:5px;
 }
+.hidden {
+    display: none
+}
 #nav {
     line-height:30px;
     background-color:#eeeeee;
