@@ -12,8 +12,13 @@
     height:300px;
     width:100px;
     float:left;
-    padding:5px; 
+    padding:5px;
 }
+.bg-1: {
+    background-color: #1abc9c;
+    color: #ffffff;
+}    
+
 #section1 {
     width:350px;
     float:left;
@@ -24,19 +29,16 @@
     float:left;
     padding:10px; 
 }
-#section3 {
-  width:350px;
-    float:left;
-    padding:10px; 
-}
 #section4 {
   width:350px;
     float:left;
     padding:10px;
 }
+#section4.5 {
+    float:right;
+}
 #section5 {
-  width:350px;
-    float:left;
+   width:30%;
     padding:10px;
     text-align:center;
 }
@@ -46,5 +48,10 @@
     clear:both;
     text-align:center;
     padding:5px; 
+}
+.list-style{
+      width: 300px;
+    text-align: center;
+    font-size: 20px;
 }
 </style>

@@ -3,41 +3,47 @@
 <head>
   <title>Carolyn's Github Repositories</title>
   <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
 <body>
 <div class="jumbotron">
   <div class="container">
     <h1>GitHub Repositories</h1>
-      <p>Interested in checking out my GitHub repositories? Check them out here.</p>
-      <!-- Small button group -->
-<div class="btn-group">
-  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Home <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu">
-     <li class="active"><a href="home.html" target="_blank">Homepage</a></li>
-  </ul>
+      <p>Interested in my GitHub repositories? Check them out here.</p>
+      <!-- Small button -->
+<div class="btn">
+  <a href="home.html" class="btn btn-info" role="button">Homepage</a>
 </div>
 </div>
 </div>
-<div class="panel panel-default">
-  <!-- Default panel contents -->
-  <div class="panel-heading">GitHub Repositories</div>
-  <div class="panel-body">
-    <p>Look at my work history here, including commits.</p>
+<div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <div class="list-group">
+        </div>
+      </div>
+      <div class="col-md-7 table-responsive">
+        <table class="table">
+          <thead>
+            <th>sha</th>
+            <th>Author</th>
+            <th>Message</th>
+            <th>Date</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2345</td>
+              <td>Carolyn Tevnan</td>
+              <td>Commit message here</td>
+              <td>12/6/15</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
   </div>
-
-  <!-- Table -->
-  <table class="table">
-   <thead>Repositories</thead>
-   <tbody>
-   <tr>
-   <td>First cell</td>
-   <td>Second cell</td>
-   </tr>
-   </tbody>
-  </table>
-</div>
+ <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="js/commits.js"></script>
+  <script type="text.javascript" src="js/repos.js"></script>
 </body>
 </html>
