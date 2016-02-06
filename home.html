@@ -1,132 +1,135 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Carolyn Tevnan's Dynamic Portfolio Page</title>
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-<link rel="stylesheet" type="text/css" href="style.css">
-<body>
-<nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
-    <!-- Brand and toggle get grouped for better mobile display -->
+    <head>
+        <title>Carolyn Tevnan's Dynamic Portfolio Page</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>    
+    <body>
+    <nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+        <!-- Brand and toggle grouped for better mobile display -->
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="home.html">Portfolio</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="home-background.html" target="_blank">My Background</a></li>
+                    <li class="active"><a href="home-contact.html" target="_blank">Contact</a></li>
+                    <li class="active"><a href="github-repos.html" target="_blank">GitHub Repositories</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="home.html">Portfolio</a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="home-background.html" target="_blank">My Background</a></li>
-                <li class="active"><a href="home-contact.html" target="_blank">Contact</a></li>
-                <li class="active"><a href="github-repos.html" target="_blank">GitHub Repositories</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<div class="container">
-  <div class="jumbotron">
-    <h1>Welcome to Carolyn Tevnan's Portfolio Page</h1>
-    <p>Lets start with the three main reasons why I want to be a web developer;</p> 
-  </div>
-<div class="row">
-   <div class="col-sm-4">
-     <h3>Creative Expression</h3>
-     <button id="toggleButtonOne">Toggle</button>
-     <p class="hid" id= "paragraphOne">Throughout my life I have been a creative individual. I love the creative process. I find great pleasure in visualizing a project, then taking all the steps necessary to make my vision real. For most of my life I accomplished this through being in advanced art classes and working with pencils, clay or pastels as my medium. I have found the perfect medium in web design. A quote from Mark Boulton sums up my approach to design; "I think design covers so much more than the aesthetic. Design is fundamentally more. Design is usability. Its Information Architecture. Its accessibility. This is design."</p>
-     <p><img class="hid" id="imageOne" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/310049_712946118731_1886232067_n.jpg?oh=c9ba544ead3d3af591975a87b6eb8448&oe=56DC45B1" height="200" width="300"></p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Reaching Earnest Goals</h3>
-      <button id="toggleButtonTwo">Toggle</button>
-      <p class="hid" id= "paragraphTwo">The design aspects of being a front end web developer do intrigue me, but what is design without meaningful content? This bring me to my second reason for choosing web development as a career, which is the simple fact that I want to fulfill my passion for working in the field of Environmental Sustainability. While in college, I fulfilled this passion by creating and leading a subcommittee focused cutting down food waste on campus and establishing a composting program. Now, I have skills that can take my passion for sustainability to the next level.</p>
-      <p><image class="hid" id="imageTwo" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/1923736_12037701927_6915_n.jpg?oh=8f26831ef27af466ff4cae6d0c881e88&oe=56E1D7C6" height="200" width="300"></p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Culture Fit</h3> 
-      <togglebutton id="toggleButtonThree"><button>Toggle</button>       
-      <p class="hid" id="paragraphThree">I understand how important it is to be a good fit culturally speaking when it comes to joining a new company. Although I do not have a formal tech background, I do have lots of friends who work in the field, specifically in cloud computing. Who initially inspired me to start gaining technical skills? My friends who work in the field! I loved the conversations that they would have, and I wanted to join the discusssion. I began by studying computer hardware, and to this day I enjoy doing hardware installations in my free time. It just so happens that my true love is software.</p>
-      <p><image class="hid" id="imageThree" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xlf1/v/t1.0-9/375879_710874639991_444540066_n.jpg?oh=90b5ab02fe2aa8b055843f37d641a567&oe=56D3F070" height="200" width="300"></p>
-    </div>
-  </div>
-</div>
-<!--carousel starts below-->
-<div class="container">
-  <div class="col-sm-12">
-    <div class="bs-example">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Carousel indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
-        </ol>   
-        <!-- Wrapper for carousel items -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <img class="full-width" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xap1/t31.0-8/12188193_965547882771_7012955238591374110_o.jpg" height="600" width="700" alt="First Slide" id="pic1">
+      <div class="jumbotron">
+          <h1>Welcome to Carolyn Tevnan's Portfolio Page</h1>
+          <p>Lets start with the three main reasons why I want to be a web developer;</p> 
+      </div>
+        <div class="row">
+            <div class="col-sm-4">
+              <h3>Creative Expression</h3>
+                <button id="toggleButtonOne">Expand</button>
+                  <p class="hid" id= "paragraphOne">Throughout my life I have been a creative individual. I love the creative process. I find great pleasure in visualizing a project, then taking all the steps necessary to make my vision real. For most of my life I accomplished this through being in advanced art classes and working with pencils, clay or pastels as my medium. I have found the perfect medium in web design. A quote from Mark Boulton sums up my approach to design; "I think design covers so much more than the aesthetic. Design is fundamentally more. Design is usability. Its Information Architecture. Its accessibility. This is design."</p>
+                  <p><img class="hid" id="imageOne" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/310049_712946118731_1886232067_n.jpg?oh=c9ba544ead3d3af591975a87b6eb8448&oe=56DC45B1" height="200" width="300"></p>
             </div>
-            <div class="item">
-                <img class="full-width" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xpa1/t31.0-8/12309870_970466745331_3438918381930916468_o.jpg" height="600" width="700" alt="Second Slide" id="pic2">
-            </div>
-            <div class="item">
-                <img class="full-width" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xfl1/t31.0-8/12309498_971020814971_7077900035508852941_o.jpg" height="600" width="700" alt="Third Slide" id="pic3">
-            </div>
+          <div class="col-sm-4">
+            <h3>Reaching Earnest Goals</h3>
+              <button id="toggleButtonTwo">Expand</button>
+                <p class="hid" id= "paragraphTwo">The design aspects of being a front end web developer do intrigue me, but what is design without meaningful content? This bring me to my second reason for choosing web development as a career, which is the simple fact that I want to fulfill my passion for working in the field of Environmental Sustainability. While in college, I fulfilled this passion by creating and leading a subcommittee focused cutting down food waste on campus and establishing a composting program. Now, I have skills that can take my passion for sustainability to the next level.</p>
+                <p><img class="hid" id="imageTwo" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/1923736_12037701927_6915_n.jpg?oh=8f26831ef27af466ff4cae6d0c881e88&oe=56E1D7C6" height="200" width="300"></p>
           </div>
+          <div class="col-sm-4">
+            <h3>Culture Fit</h3> 
+              <button id="toggleButtonThree">Expand</button>       
+                <p class="hid" id="paragraphThree">I understand how important it is to be a good fit culturally speaking when it comes to joining a new company. Although I do not have a formal tech background, I do have lots of friends who work in the field, specifically in cloud computing. Who initially inspired me to start gaining technical skills? My friends who work in the field! I loved the conversations that they would have, and I wanted to join the discusssion. I began by studying computer hardware, and to this day I enjoy doing hardware installations in my free time. It just so happens that my true love is software.</p>
+                <p><img class="hid" id="imageThree" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xlf1/v/t1.0-9/375879_710874639991_444540066_n.jpg?oh=90b5ab02fe2aa8b055843f37d641a567&oe=56D3F070" height="200" width="300"></p>
+          </div>
+    </div>   
+      <!--carousel starts below-->
+      <div class="container">
+        <div class="col-sm-12">
+          <div class="bs-example">
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Carousel indicators -->
+              <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
+                  <li data-target="#myCarousel" data-slide-to="4"></li>
+              </ol>   
+              <!-- Wrapper for carousel items -->
+              <div class="carousel-inner">
+                  <div class="item active">
+                      <img class="full-width" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xap1/t31.0-8/12188193_965547882771_7012955238591374110_o.jpg" height="600" width="700" alt="First Slide" id="pic1">
+                  </div>
+                  <div class="item">
+                      <img class="full-width" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xpa1/t31.0-8/12309870_970466745331_3438918381930916468_o.jpg" height="600" width="700" alt="Second Slide" id="pic2">
+                  </div>
+                  <div class="item">
+                      <img class="full-width" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xfl1/t31.0-8/12309498_971020814971_7077900035508852941_o.jpg" height="600" width="700" alt="Third Slide" id="pic3">
+                  </div>
+                </div>
+              </div>
+              <!-- Carousel controls -->
+              <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+            </div>
+          </div> 
         </div>
-        <!-- Carousel controls -->
-        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="carousel-control right" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
       </div>
-    </div> 
-  </div>
-</div>
-<div class="col-sm-4">  
-  <div class="panel panel-default">
-   <div class="panel-heading">Ideal Organizations
-   </div>
-       <div class="panel-body">
-          <p>A few examples of the ideal type of organization that I would like to work for would include the following;</p>
-       </div>
-          <ul class="list-group">
-               <li class="list-group-item">Nature Conservancy</li>
-               <li class="list-group-item">Pew Charitable Trusts</li>
-               <li class="list-group-item">EPA</li>
-               <li class="list-group-item">Friends of the Earth</li>
-          </ul>
-       </div>
-   </div>
-<div class="col-sm-4">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-       <h4 class="panel-title">Professional Experience: Internship at Halberd Match</h4>
+      <div class="col-sm-4">  
+        <div class="panel panel-default">
+         <div class="panel-heading">Ideal Organizations
          </div>
-         <div class="panel-body">
-           <p><a href="http://www.halberdmatch.com">Halberd Match</a></p>
+             <div class="panel-body">
+                <p>Examples of the ideal type of organization that I would like to work for:</p>
+             </div>
+                <ul class="list-group">
+                     <li class="list-group-item">Nature Conservancy</li>
+                     <li class="list-group-item">Pew Charitable Trusts</li>
+                     <li class="list-group-item">EPA</li>
+                     <li class="list-group-item">Friends of the Earth</li>
+                </ul>
+             </div>
          </div>
+      <div class="col-sm-4">
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">Professional Experience: Internship at Halberd Match</h4>
+              </div>
+              <div class="panel-body">
+                <p><a href="http://www.halberdmatch.com">Halberd Match</a></p>
+              </div>
+          </div>
       </div>
-  </div>
-<div class="col-sm-4">
-    <div class="well well-sm"><img src="https://avatars0.githubusercontent.com/u/15148849?v=3&s=460"></div>
-</div>
-      
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
-<script src="interact.js"></script> 
-<div id="footer">
-<p>Thank you for viewing my portfolio page.</p>
-</div>  
+      <div class="col-sm-4">
+          <div class="well well-sm">
+              <img src="https://avatars0.githubusercontent.com/u/15148849?v=3&s=460">
+          </div>
+      </div>
+    <nav class="navbar navbar-inverse navbar-fixed-bottom">
+      <div class="container-fluid">
+        <p>Thanks for visiting my Portfolio Page.</p>
+      </div>
+    </nav>         
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+  <script src="interact.js"></script>  
 </body>
 </html>
