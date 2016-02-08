@@ -20,7 +20,6 @@ $(document).ready(function() {
 
       var newLink = $("<a>")
         .attr("href", commitsApiUrl)
-        .append(repoData.full_name)
         .addClass("list-group-item")
         .append(repoData.full_name);
       return newLink;
