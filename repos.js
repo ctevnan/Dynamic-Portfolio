@@ -14,12 +14,12 @@ $(document).ready(function() {
     });
 
     function buildListGroup(repoData) {
-      var apiUrl = "https://api.github.com/repos/";
-      apiUrl += repoData.owner.login + "/";
-      apiUrl += repoData.name;
+      var commitsApiUrl = "https://api.github.com/repos/";
+      commitsApiUrl += repoData.owner.login + "/";
+      commitsApiUrl += repoData.name + "/commits";
 
       var newLink = $("<a>")
-        .attr("href", apiUrl)
+        .attr("href", commitsApiUrl)
         .append(repoData.full_name)
         .addClass("list-group-item")
         .append(repoData.full_name);
