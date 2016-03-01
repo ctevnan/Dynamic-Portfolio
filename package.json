@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio served up by node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctevnan/Dynamic-Portfolio.git"
+  },
+  "author": "CTevnan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctevnan/Dynamic-Portfolio/issues"
+  },
+  "homepage": "https://github.com/ctevnan/Dynamic-Portfolio#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

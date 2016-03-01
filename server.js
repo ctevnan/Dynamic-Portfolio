@@ -1,5 +1,4 @@
 var express = require('express');
-var github = require('github');
 var app = express();
 var PORT = process.env.PORT || 8090;
 
